@@ -31,6 +31,7 @@ class Access::SessionsController < Devise::SessionsController
   end
 
   def new
-    redirect_to login_path
+    @user = User.new
+    render 'auth/login'
   end
 end
