@@ -33,12 +33,6 @@ group :development do
   gem 'spring'
 end
 
-group :production, :staging do
-  gem 'heroku_rails_deflate'
-  gem 'rails_12factor'
-end
-
-
 # Haml as the templating engine for Rails
 gem 'haml-rails', '~> 0.9'
 
