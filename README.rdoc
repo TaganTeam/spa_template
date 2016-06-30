@@ -7,3 +7,6 @@ Things you may want to cover:
 
 * Change app_name in config/initializers/grape_swagger_rails.rb
 
+
+TODO: add gem angular-templates
+
