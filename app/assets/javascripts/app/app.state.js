@@ -16,7 +16,7 @@ angular
             $stateProvider
                 .state('root', {
                     url: '/',
-                    templateUrl: 'assets/app/components/root/root.tpl.html',
+                    templateUrl: 'root/root.html',
                     controller: 'rootController',
                     controllerAs: 'rootCtrl'
                 });

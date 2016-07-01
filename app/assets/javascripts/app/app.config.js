@@ -1,6 +1,7 @@
 angular
     .module('appName', [
         'ui.router',
+        'templates',
         'ngMessages',
         'ngAnimate',
         'angular-storage',

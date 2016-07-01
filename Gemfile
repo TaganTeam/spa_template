@@ -33,8 +33,12 @@ group :development do
   gem 'spring'
 end
 
+# Adds your HTML templates into Angular's $templateCache using Rails asset pipeline.
+gem 'angular-rails-templates'
+
 # Haml as the templating engine for Rails
 gem 'haml-rails', '~> 0.9'
+
 
 # APPLICATION PROGRAMMING INTERFACE (API)
 gem 'grape', '~> 0.9.0'
